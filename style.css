@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: gray;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.header_icon {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.header_description {
+  margin-left: 25px;
+}
+
+.main {
+  background-color: ivory;
+  min-height: 85vh;
+  height: 100%;
+}
+.main .container {
+  padding: 30px 0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.controls_name {
+  margin-right: 20px;
+}
+
+.controls_label {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.controls_label_rows {
+  max-width: 150px;
+}
+.controls_label_columns {
+  max-width: 180px;
+}
+.input {
+  max-width: 100px;
+  width: 100%;
+  padding: 5px 20px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  outline: none;
+}
+
+.button {
+  padding: 5px 30px;
+  background-color: #cccccc;
+  border: 1px solid #525050;
+  border-radius: 20px;
+  color: #525050;
+}
+
+.button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.button:active {
+  background-color: #cccccc;
+  color: #525050;
+}
+
+.search {
+  margin-bottom: 25px;
+}
+
+.search_input {
+  min-width: 360px;
+  margin-right: 25px;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+  height: 20px;
+  min-width: 50px;
+}
+
+#row_0 {
+  position: sticky;
+  top: 0;
+}
+
+th {
+  border: 2px solid gray;
+  background-color: #cccccc;
+  height: 30px;
+  text-transform: uppercase;
+}
+
+#cell_1,
+#header_1 {
+  text-align: center;
+  color: gray;
+  font-weight: 600;
+  width: 40px;
+}
+
+.cell:focus,
+.cell_header:focus {
+  outline: 2px solid rgb(61, 53, 129);
+}
+
+.hidden {
+  display: none;
+}
+
+.footer {
+  background-color: gray;
+}
+
+.footer .container {
+  padding: 10px 0;
+  font-style: italic;
+}
