@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Table</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="header">
-      <div class="container">
-        <img
-          src="https://image.flaticon.com/icons/png/512/3602/3602109.png"
-          class="header_icon"
-        />
-        <div class="header_description">Your table</div>
-      </div>
+        <div class="container">
+            <img src="https://image.flaticon.com/icons/png/512/3602/3602109.png" class="header_icon" />
+            <div class="header_description">Your magic table</div>
+        </div>
     </header>
     <main class="main">
-      <div class="container">
-        <div class="controls">
-          <div class="controls_name">Введите необходимое количество</div>
-          <label class="controls_label controls_label_rows"
-            >строк:
+        <div class="container">
+            <div class="controls">
+                <div class="controls_name">Введите необходимое количество</div>
+                <label class="controls_label controls_label_rows">строк:
             <input
               class="input controls_input_rows"
               type="number"
@@ -32,8 +30,7 @@
             />
           </label>
 
-          <label class="controls_label controls_label_columns"
-            >стоблцов:
+                <label class="controls_label controls_label_columns">стоблцов:
             <input
               class="input controls_input_columns"
               type="number"
@@ -44,21 +41,22 @@
             />
           </label>
 
-          <button class="button button_use_params">Применить</button>
-        </div>
+                <button class="button button_use_params">Применить</button>
+            </div>
 
-        <div class="search">
-          Введите значение для поиска
-          <input class="input search_input" type="text" />
-          <button class="button button_show_all">Сбросить поиск</button>
-        </div>
+            <div class="search">
+                Введите значение для поиска
+                <input class="input search_input" type="text" />
+                <button class="button button_show_all">Сбросить поиск</button>
+            </div>
 
-        <table id="table"></table>
-      </div>
+            <table id="table"></table>
+        </div>
     </main>
     <footer class="footer">
-      <div class="container">&copy; Darya Aniskevich 2021</div>
+        <div class="container">&copy; Darya Aniskevich 2021</div>
     </footer>
     <script src="./index.js"></script>
-  </body>
+</body>
+
 </html>
